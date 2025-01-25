@@ -1,104 +1,221 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karolina - My Beautiful Girlfriend</title>
+    <meta name="description" content="HD Zone Wars is the ultimate Fortnite creative map with dynamic battles, HD environments, and endless fun!">
+    <meta name="keywords" content="Fortnite, HD Zone Wars, Fortnite map, creative map, battle royale, Fortnite gameplay">
+    <meta name="author" content="Your Name">
+    <title>HD Zone Wars - Ultimate Fortnite Map</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f3f3f3;
-            color: #333;
+        /* Basic reset and general styles */
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            background-color: #181818;
+            color: #fff;
+            padding: 0;
+            margin: 0;
+        }
+        h1, h2, h3 {
+            color: #00ff99;
+        }
+        a {
+            color: #00ff99;
+            text-decoration: none;
+        }
+        img {
+            max-width: 100%;
+        }
+
+        /* Navbar */
         header {
-            background-color: #ff66cc;
-            padding: 20px;
+            background: #1f1f1f;
+            padding: 20px 0;
             text-align: center;
-            color: white;
         }
         header h1 {
-            margin: 0;
-            font-size: 36px;
+            font-size: 3em;
+            margin-bottom: 10px;
         }
-        .section {
-            padding: 20px;
+        header nav a {
+            margin: 0 15px;
+            font-size: 1.1em;
+            color: #fff;
         }
-        .about img {
+
+        /* Hero section */
+        .hero {
+            background: url('your-hero-image.jpg') no-repeat center center/cover;
+            padding: 100px 20px;
+            text-align: center;
+            color: white;
+        }
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .hero .cta-btn {
+            padding: 10px 30px;
+            background-color: #00ff99;
+            color: #181818;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .hero .cta-btn:hover {
+            background-color: #00cc7a;
+        }
+
+        /* Features section */
+        .features {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #262626;
+            padding: 50px 20px;
+        }
+        .feature {
+            text-align: center;
+            max-width: 250px;
+            margin: 10px;
+        }
+        .feature img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .feature h3 {
+            margin-top: 15px;
+            font-size: 1.5em;
+        }
+        .feature p {
+            margin-top: 10px;
+            font-size: 1em;
+        }
+
+        /* Gallery section */
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 50px 20px;
+            background-color: #181818;
+        }
+        .gallery img {
             width: 100%;
             max-width: 400px;
-            margin: 0 auto;
-            display: block;
-        }
-        .about h2 {
-            text-align: center;
-            font-size: 28px;
-            color: #ff66cc;
-        }
-        .about p {
-            font-size: 18px;
-            line-height: 1.6;
-            text-align: center;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .favorite-things {
-            background-color: #fff;
+            margin: 15px;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-top: 20px;
-            padding: 20px;
-            text-align: center;
         }
-        .favorite-things h3 {
-            font-size: 24px;
-            color: #ff66cc;
-        }
-        .favorite-things ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .favorite-things ul li {
-            font-size: 18px;
-            margin: 10px 0;
-        }
+
+        /* Footer */
         footer {
+            background-color: #1f1f1f;
             text-align: center;
-            padding: 10px;
-            background-color: #ff66cc;
-            color: white;
+            padding: 20px 0;
+        }
+        footer p {
+            font-size: 1em;
+        }
+
+        /* Media queries */
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+            }
+            .feature {
+                margin-bottom: 20px;
+            }
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Karolina - My Beautiful Girlfriend</h1>
-    </header>
+<!-- Header -->
+<header>
+    <h1>HD Zone Wars</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#screenshots">Screenshots</a>
+        <a href="#how-to-play">How to Play</a>
+        <a href="#community">Community</a>
+    </nav>
+</header>
 
-    <div class="section about">
-        <h2>About Karolina</h2>
-        <img src="karolina-photo.jpg" alt="Karolina">
-        <p>
-            Karolina is a wonderful person who lights up every room she enters. She's smart, funny, and always knows how to make me smile. Whether it's spending time together on the weekends or having deep conversations, every moment with her is unforgettable. I feel incredibly lucky to have her in my life.
-        </p>
+<!-- Hero Section -->
+<section class="hero">
+    <h2>Step Into the Ultimate Fortnite Battleground</h2>
+    <p>HD Zone Wars is the custom Fortnite map designed to challenge your combat skills, build under pressure, and enjoy thrilling moments with friends!</p>
+    <a href="#how-to-play" class="cta-btn">Play Now</a>
+</section>
+
+<!-- About Section -->
+<section id="about">
+    <div class="container">
+        <h2>What is HD Zone Wars?</h2>
+        <p>HD Zone Wars is a dynamic, fast-paced Fortnite creative map that throws players into an ever-shrinking battlefield. With custom loadouts, multiple arenas, and an epic visual design, it's perfect for players of all levels looking to hone their skills and have fun!</p>
     </div>
+</section>
 
-    <div class="section favorite-things">
-        <h3>Karolina's Favorite Things</h3>
-        <ul>
-            <li>Favorite Color: Pink</li>
-            <li>Favorite Food: Dominos cookies</li>
-            <li>Favorite Movie: "Grown Ups"</li>
-            <li>Favorite Hobby: Dancing</li>
-            <li>Favorite Music: slutty rave</li>
-        </ul>
+<!-- Features Section -->
+<section id="features" class="features">
+    <div class="feature">
+        <img src="feature1.jpg" alt="HD Environments">
+        <h3>HD Environments</h3>
+        <p>Immerse yourself in beautiful, high-definition environments crafted for the ultimate Fortnite experience.</p>
     </div>
+    <div class="feature">
+        <img src="feature2.jpg" alt="Custom Loadouts">
+        <h3>Custom Loadouts</h3>
+        <p>Choose from a variety of weapons and loadouts to fit your combat strategy.</p>
+    </div>
+    <div class="feature">
+        <img src="feature3.jpg" alt="Dynamic Zones">
+        <h3>Dynamic Zones</h3>
+        <p>Watch as the play zone shrinks in unpredictable ways, making every round more intense.</p>
+    </div>
+</section>
 
-    <footer>
-        <p>Created with love for Karolina</p>
-    </footer>
+<!-- Screenshot Gallery Section -->
+<section id="screenshots" class="gallery">
+    <h2>HD Zone Wars in Action</h2>
+    <img src="screenshot1.jpg" alt="Screenshot 1">
+    <img src="screenshot2.jpg" alt="Screenshot 2">
+    <img src="screenshot3.jpg" alt="Screenshot 3">
+</section>
+
+<!-- How to Play Section -->
+<section id="how-to-play">
+    <h2>How to Play</h2>
+    <ol>
+        <li>Open Fortnite and select "Creative" mode.</li>
+        <li>Enter the map code: [INSERT CODE HERE]</li>
+        <li>Select the map and get ready for intense battles!</li>
+    </ol>
+</section>
+
+<!-- Community Section -->
+<section id="community">
+    <h2>Join the HD Zone Wars Community</h2>
+    <p>Follow us on Discord, Twitter, and Instagram for updates, challenges, and exclusive rewards!</p>
+    <a href="https://discord.com/invite/your-discord" target="_blank" class="cta-btn">Join Our Discord</a>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 HD Zone Wars | All Rights Reserved</p>
+    <p><a href="mailto:your-email@example.com">Contact Us</a></p>
+</footer>
 
 </body>
 </html>
